@@ -7,7 +7,7 @@ function checkPswd() {
     let password = document.querySelector(".pw").value;
 
     if (password == confirmPassword && confirmId == userId) {
-           document.querySelector("form").action ="index.html";
+           document.querySelector("form").action ="Desk.html";
            console.log(password)
 
     }
